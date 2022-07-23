@@ -911,11 +911,6 @@ function Library:create(options)
 		end,
 	}
 
-	local creditsTab = Library.tab(mt, {
-		Name = "Credits",
-		Internal = creditsTabIcon,
-		Icon = "http://www.roblox.com/asset/?id=8577523456"
-	})
 
 function Library:notification(options)
 	options = self:set_defaults({
